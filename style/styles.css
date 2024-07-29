@@ -1,0 +1,413 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+/* font- famely */
+/* font-family: "Dancing Script", cursive; */
+
+
+
+
+#mine_conten{
+background-color: black;
+max-width: 100%;
+}
+
+/* diplay_flax */
+.display_flax{
+  display: flex;
+}
+
+.nav_conten{
+  max-width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.title{
+  font-weight: bold;
+  font-size: 3rem;
+  color: rgb(224, 82, 82);
+}
+
+.nav_maun{
+  display: flex;
+  list-style: none;
+ 
+}
+
+.manu_conten{
+  
+   text-decoration: none;
+   margin-right: 1rem;
+   font-weight: 400;
+   font-size: 1.2rem;
+   color: whitesmoke;
+}
+
+.home_style{
+  background-color:rgb(224, 82, 82) ;
+  font-weight: bold;
+  font-size: 1.4rem;
+  border: 1px solid;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3rem;
+}
+
+.hambargr_maun{
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.hambargr_maun{
+  display: none;
+}
+
+
+/* banner-style */
+
+.bannerr_conten{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.bannerr_conten{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner_title{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.banner_dispesion{
+  color:#6b6767 ;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.more{
+  font-family:"Dancing Script", cursive ;
+  font-size: 3.5rem;
+}
+
+.Join{
+  border: 1px solid steelblue;
+  padding:10px 20px;
+  background-color:rgb(244, 45, 45);
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ffffff;
+  border-radius: 3rem;
+  border: none;
+  margin-right: 20px;
+}
+
+.ap{
+  border: 1px solid #ffffff;
+  padding:10px 20px;
+  background-color:#483838;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ffffff;
+  border-radius: 3rem;
+  
+}
+
+.Habits{
+  max-width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+}
+
+.Change{
+  font-weight: bold;
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.we_fitness{
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #6b6767;
+}
+
+.img_con{
+  border-radius: 50%;
+}
+
+.time{
+  font-weight: bold;
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.about_time{
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #6b6767;
+}
+
+.cird_conton{
+  max-width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.img_style{
+  border-radius: 50%;
+}
+
+.body_fitens{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.bodey_contorle{
+  color: #6b6767;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.run_conten{
+  
+  max-width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 4rem;
+  margin-top: 3rem;
+}
+
+.Extra{
+  color: #ffffff;
+}
+
+.runing{
+  color: #6b6767;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.join{
+  border: 1px solid white;
+  padding: 15px 25px;
+  background-color: rgba(230, 83, 60, 1);
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 3rem;
+}
+
+.run_jpg{
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: black;
+}
+
+.tener_name{
+  max-width: 80%;
+  margin: 0 auto;
+  
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+  margin-top: 3rem;
+  gap: 20px;
+  padding-left: 15px;
+  
+}
+
+
+
+.set_img_back_1{
+  background-image: url(../images/trainer1.png);
+  /* background-position: center; */
+  display: flex;
+  align-items: self-end;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  width: 320px;
+  height: 320px;
+  border-radius: 1rem;
+  
+}
+
+.set_img_back_2{
+  background-image: url(../images/trainer2.png);
+  /* background-position: center; */
+  display: flex;
+  align-items: self-end;
+  color: white;
+  background-size: cover;
+  width: 320px;
+  height: 320px;
+  background-position: center;
+  border-radius: 1rem;
+}
+
+.set_img_back_3{
+  background-image: url(../images/trainer3.png);
+  /* background-position: center; */
+  display: flex;
+  align-items: self-end;
+  color: white;
+  background-size: cover;
+  width: 320px;
+  height: 320px;
+  background-position: center;
+  border-radius: 1rem;
+}
+
+.set_img_back_4{
+  background-image: url(../images/trainer4.png);
+  background-position: center;
+  display: flex;
+  align-items: self-end;
+  color: white;
+  background-size: cover;
+  border-radius: 1rem;
+  width: 320px;
+  height: 320px;
+  background-position: center;
+}
+
+.set_img_back_5{
+  background-image: url(../images/trainer5.png);
+  /* background-position: center; */
+  display: flex;
+  align-items: self-end;
+  color: white;
+  background-size: cover;
+  width: 320px;
+  height: 320px;
+  background-position: center;
+  border-radius: 1rem;
+}
+
+.set_img_back_6{
+  background-image: url(../images/trainer6.png);
+  /* background-position: center; */
+  display: flex;
+  align-items: self-end;
+  color: white;
+  background-size: cover;
+  width: 320px;
+  height: 320px;
+  background-position: center;
+  border-radius: 1rem;
+  
+}
+
+.color{
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+.coler0{
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.Bell{
+  padding-left: 10px;
+}
+
+
+
+
+.team{
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.our{
+  font-weight: bold;
+  font-size:3rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+.income{
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+.fi{
+  font-weight: bold;
+  font-size: 4rem;
+  color:rgba(230, 83, 60, 1) ;
+}
+
+.heart{
+  font-weight:400;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+.footer_conten{
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.content{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 3rem;
+}
+
+.get{
+  font-weight: bold;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+.item{
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.h{
+  max-width: 80%;
+  margin: 0 auto;
+  
+}
+
+
+.all_right{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+
+.reserved{
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}

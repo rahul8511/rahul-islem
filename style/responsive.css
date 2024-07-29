@@ -1,0 +1,55 @@
+
+
+@media screen and (max-width:576px) {
+  .nav_conten{
+ flex-direction: row;
+ padding: 10px;
+ 
+}
+  
+.conten{
+  display: none
+}
+
+.hambargr_maun{
+  display: block;
+}
+
+.bannerr_conten{
+  flex-direction: column;
+}
+.Join{
+  margin-bottom: 10px;
+}
+
+.Habits{
+  flex-direction: column;
+  align-items: center;
+}
+
+.cird_conton{
+ grid-template-columns: repeat(1 ,1fr);
+ 
+}
+
+.run_conten{
+grid-template-columns:repeat(1 ,1fr) ;
+}
+
+.tener_name{
+  grid-template-columns: repeat(1,1fr);
+  
+}
+
+.footer_conten{
+ flex-direction: column;
+}
+
+.content{
+  
+  grid-template-columns: repeat(1,1fr);
+ 
+}
+
+
+}
